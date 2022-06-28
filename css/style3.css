@@ -123,7 +123,15 @@ h1 {
     
 }
 
+button:hover {
+    background-color: green;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
 
+a {
+    color: inherit;
+}
 
 .game-btn {
     display: flex;
